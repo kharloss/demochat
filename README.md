@@ -1,3 +1,4 @@
+[![Build Status](https://cloud.drone.io/api/badges/kharloss/demochat/status.svg)](https://cloud.drone.io/kharloss/demochat)
 
 ![Let's Chat Greylock](http://i.imgur.com/0a3l5VF.png)
 Demo!
