@@ -10,16 +10,6 @@ pipeline:
       - npm install -g gulp
       - npm install -g debug
 
-  publish:
-    image: plugins/docker
-    repo: ncodefresh/demochat
-    username: ${DOCKERHUB_USERNAME}
-    password: ${DOCKERHUB_PASSWORD}
-    tags: [ "latest", "1" ]
-    when:
-      branch: master
-      event: push
-
   slack:
     image: plugins/slack
     webhook: https://hooks.slack.com/services/
