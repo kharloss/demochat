@@ -7,7 +7,7 @@
 #
 LCB_BRANCH = ENV['LCB_BRANCH'] || 'master'
 
-
+# test
 # Script that we run to bootstrap the system to run Let's Chat
 LCB_SCRIPT = <<EOF
 sudo apt-get update
